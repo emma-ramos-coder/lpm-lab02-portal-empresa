@@ -161,6 +161,12 @@ body {
   margin-bottom: 20px;
 }
 
+.coffee-1 p {
+  color: grey;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
 .nosotros {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
     url(img/bg7.jpg);
@@ -289,9 +295,7 @@ h2 {
   justify-content: space-between;
 }
 
-.link h3,
-p,
-a {
+.link > h3, .link > p, .link > a {
   font-size: 18px;
   color: #f9fafc;
   display: block;
